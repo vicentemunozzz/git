@@ -1,0 +1,47 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block contenido %}
+
+<div class="landing">
+        <div class="slider">
+            <div>
+                    <img title="" class="landing_img" src="{% static 'core/img/perro.png' %}" alt="perro">
+            </div>
+            <div>
+                    <img title="" class="landing_img" src="{% static 'core/img/Tom2.jpg' %}" alt="perro apolo">
+            </div>
+            <div>
+                    <img title="" class="landing_img" src="{% static 'core/img/Apolo.jpg' %}" alt="perro duque">
+            </div>
+            <div>
+                    <img title="" class="landing_img" src="{% static 'core/img/Duque.jpg' %}" alt="perro Tom">
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h1 class="eslogan">
+
+            +56 9 98765431  
+
+        </h1>
+
+        <h3 class="slogan">
+
+            Rescate y adopcion de perros callejeros
+            
+        </h3>
+
+        <ul class="social">
+            <li> <img src="{% static 'core/img/socialfacebook.png' %}" alt="facebook"></li>
+            <li> <img src="{% static 'core/img/socialplus.png' %}" alt="Google"></li>
+            <li> <img src="{% static 'core/img/social-inst.png' %}" alt="instragram"></li>
+            <li> <img src="{% static 'core/img/Email.png' %}" alt="Correo"></li>
+        </ul>
+</div>
+
+{% endblock contenido %}
